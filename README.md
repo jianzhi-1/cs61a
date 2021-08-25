@@ -1,4 +1,5 @@
 # CS 61A
+UC Berkeley Fall 2021, taught by Prof John DeNero and Prof Pamela Fox
 
 ### Misc
 - General
