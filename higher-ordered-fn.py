@@ -16,3 +16,6 @@ def fib(x):
     return fib(x - 1) + fib(x - 2)
 
 print(fib(3))
+
+def apply_to_all(f, s):
+    return [f(x) for x in s]
