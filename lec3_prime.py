@@ -11,4 +11,4 @@ def print_factors(n):
   while (n != 1):
     x = smallest_factor(n)
     print(x)
-    n /= x
+    n //= x
