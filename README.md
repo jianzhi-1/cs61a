@@ -22,9 +22,28 @@ $ python3 ok --submit
   - ```or``` short-circuits when it hits a True value.
 - ```not``` always return True or False value
 - Order of binding (placing of parenthesis): ```not```, ```and```, ```or```
+- Interesting Python behaviors:
+```python
+>>> 5 == True
+False
+>>> 1 == True
+True
+>>> "" == False
+False
+```
+- ```__eq__``` dunder method: Python automatically calls ```__eq__``` when the ```==``` operator is used. Otherwise, it uses ```is``` by default.
+```python
+    def __eq__(self, other):
+        # firstly, check the instance
+        if isinstance(other, Person):
+            return self.age == other.age
+        return False
+```
+- ```is``` checks whether the operands refer to the same object (i.e. present in the same memory location), while ```==``` checks for value equality of the operands
 
 #### Errors (09/01 Lab)
 - ```SyntaxError```
 - ```IndentationError```: just use consistent indenting
 - ```TypeError```: called function on an operand that wasn't the correct type
 - ```ZeroDivisionError```: 1/0
+- ```AttributeError```: when calling an attribute that an object doesn't have
