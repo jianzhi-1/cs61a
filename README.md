@@ -7,6 +7,7 @@ This repository is meant to store my lecture/discussion notes, which I think wou
 ```shell
 $ python3 -i file.py
 $ python3 -m doctest lab00.py
+$ python3 -m doctest lec4.py -v
 ```
 - Submission
 ```shell
