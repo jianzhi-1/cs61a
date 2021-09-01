@@ -16,6 +16,12 @@ $ python3 ok --submit
 ```
 
 ### Notes
+
+#### Definitions
+- Higher order function: either takes another function as an argument or returns a function as a result
+- First order function: all other functions
+- Refactoring: produces same result, but make code organization/structure better
+
 #### Control (09/01 Lab)
 - Things that represents False: False, 0, None, [], "", ()
 - Short circuiting behavior: 
@@ -48,3 +54,15 @@ False
 - ```TypeError```: called function on an operand that wasn't the correct type
 - ```ZeroDivisionError```: 1/0
 - ```AttributeError```: when calling an attribute that an object doesn't have
+
+### Lambdas (09/01 Lecture)
+- Can only return an expression, which limits how much lambda functions can do.
+- Useful if function is not used anywhere else (adhoc function)
+- Shows up a bit differently in environmental diagrams
+```python
+# lambda <parameters>: <expression>
+
+f = lambda x: x if x >= 0 else -x # lambda with ternary
+comp = lambda x, y: x > y # lambda with multiple parameters
+g = lambda x: (x, x*x) # lambda returning multiple values
+```
