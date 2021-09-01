@@ -13,3 +13,18 @@ $ python3 -m doctest lab00.py
 $ python3 ok
 $ python3 ok --submit
 ```
+
+### Notes
+#### Control (09/01 Lab)
+- Things that represents False: False, 0, None, [], "", ()
+- Short circuiting behavior: 
+  - ```and``` short-circuits when it hits a False value. 
+  - ```or``` short-circuits when it hits a True value.
+- ```not``` always return True or False value
+- Order of binding (placing of parenthesis): ```not```, ```and```, ```or```
+
+#### Errors (09/01 Lab)
+- ```SyntaxError```
+- ```IndentationError```: just use consistent indenting
+- ```TypeError```: called function on an operand that wasn't the correct type
+- ```ZeroDivisionError```: 1/0
