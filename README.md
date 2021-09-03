@@ -66,3 +66,7 @@ f = lambda x: x if x >= 0 else -x # lambda with ternary
 comp = lambda x, y: x > y # lambda with multiple parameters
 g = lambda x: (x, x*x) # lambda returning multiple values
 ```
+
+### Environmental Diagram and Global (09/03 Discussion)
+- global
+- 
