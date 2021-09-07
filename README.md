@@ -69,4 +69,36 @@ g = lambda x: (x, x*x) # lambda returning multiple values
 
 ### Environmental Diagram and Global (09/03 Discussion)
 - global
-- 
+
+```
+Global frame
+f1: f [parent=Global]
+f2: λ <line 8> [parent=f1]
+```
+
+- Any name evaluates to the value bound in its earliest frame
+- Every user defined function has a parent frame, which is the frame in which the function is defined.
+
+```python
+f(lambda x: x*x) # here, the parent of lambda is Global
+```
+
+- For variable look-up, look in the current frame before going up the sequence
+
+- Call expressions
+  - evaluate operator
+  - evaluate operand (left to right)
+  - apply functions (if any) to operand, opening new frames
+
+```python
+f(g(x)) # here, the parent of g's frame is Global
+```
+
+- Opening a new frame
+  - Frame number
+  - Frame name
+  - Frame's parent
+  - Bind parameters to arguments
+  - Execute body of function
+
+
