@@ -77,7 +77,7 @@ f2: λ <line 8> [parent=f1]
 ```
 
 - Any name evaluates to the value bound in its earliest frame
-- Every user defined function has a parent frame, which is the frame in which the function is defined.
+- Every user defined function has a parent frame, which is the frame in which the function is **defined**.
 
 ```python
 f(lambda x: x*x) # here, the parent of lambda is Global
@@ -89,6 +89,8 @@ f(lambda x: x*x) # here, the parent of lambda is Global
   - evaluate operator
   - evaluate operand (left to right)
   - apply functions (if any) to operand, opening new frames
+  - functions with no explicit return statement returns *None* implicitly
+  - **Evaluate all operator and operand before opening the frame!**
 
 ```python
 f(g(x)) # here, the parent of g's frame is Global
@@ -100,5 +102,7 @@ f(g(x)) # here, the parent of g's frame is Global
   - Frame's parent
   - Bind parameters to arguments
   - Execute body of function
+  - Every frame except Global must return a value
+  - After the return value, no other variable binding can happen in that frame
 
 
