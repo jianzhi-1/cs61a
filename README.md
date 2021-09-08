@@ -71,11 +71,16 @@ g = lambda x: (x, x*x) # lambda returning multiple values
 - global
 
 ```
-Global frame
-f1: f [parent=Global]
-f2: λ <line 8> [parent=f1]
+Frames                      |Objects
 
-// no variables for above
+Global frame
+<variable bindings>
+
+f1: f [parent=Global]
+<variable bindings>
+
+f2: λ <line 8> [parent=f1]
+<variable bindings>
 
 Objects
 func g(x) [parent=Global]
