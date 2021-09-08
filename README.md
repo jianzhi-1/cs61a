@@ -73,18 +73,14 @@ g = lambda x: (x, x*x) # lambda returning multiple values
 ```
 Frames                      |Objects
 
-Global frame
-<variable bindings>
+Global frame                |func g(x) [parent=Global]
+<variable bindings>         |func h() [parent=f2]
 
 f1: f [parent=Global]
 <variable bindings>
 
 f2: λ <line 8> [parent=f1]
 <variable bindings>
-
-Objects
-func g(x) [parent=Global]
-func h() [parent=f2]
 ```
 
 - Any name evaluates to the value bound in its earliest frame
