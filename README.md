@@ -74,6 +74,12 @@ g = lambda x: (x, x*x) # lambda returning multiple values
 Global frame
 f1: f [parent=Global]
 f2: λ <line 8> [parent=f1]
+
+// no variables for above
+
+Objects
+func g(x) [parent=Global]
+func h() [parent=f2]
 ```
 
 - Any name evaluates to the value bound in its earliest frame
