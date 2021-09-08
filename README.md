@@ -75,7 +75,7 @@ Frames                      |Objects
 
 Global frame                |func g(x) [parent=Global]
 <variable bindings>         |func h() [parent=f2]
-
+                            |func λ(k) <line 1> [parent=Global]
 f1: f [parent=Global]
 <variable bindings>
 
