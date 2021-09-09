@@ -55,7 +55,7 @@ False
 - ```ZeroDivisionError```: 1/0
 - ```AttributeError```: when calling an attribute that an object doesn't have
 
-### Lambdas (09/01 Lecture)
+#### Lambdas (09/01 Lecture)
 - Can only return an expression, which limits how much lambda functions can do.
 - Useful if function is not used anywhere else (adhoc function)
 - Shows up a bit differently in environmental diagrams
@@ -67,7 +67,7 @@ comp = lambda x, y: x > y # lambda with multiple parameters
 g = lambda x: (x, x*x) # lambda returning multiple values
 ```
 
-### Environmental Diagram and Global (09/03 Discussion)
+#### Environmental Diagram and Global (09/03 Discussion)
 - global
 
 ```
@@ -112,4 +112,17 @@ f(g(x)) # here, the parent of g's frame is Global
   - Every frame except Global must return a value
   - After the return value, no other variable binding can happen in that frame
 
+### Exam Area
 
+#### Midterm 1 Prep
+- [x] 21 Summer
+- [ ] 21 Spring
+- [ ] 20 Fall
+- [ ] 20 Summer
+- [ ] 20 Spring
+- [ ] 19 Fall
+- [ ] 19 Summer
+- [ ] 19 Spring
+- [ ] 18 Fall
+- [ ] 18 Summer
+- [ ] 18 Spring
