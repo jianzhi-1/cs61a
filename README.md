@@ -116,13 +116,13 @@ f(g(x)) # here, the parent of g's frame is Global
 
 #### Midterm 1 Prep
 - [x] 21 Summer
-- [ ] 21 Spring
-- [ ] 20 Fall
+- [x] 21 Spring
+- [x] 20 Fall
 - [ ] 20 Summer
-- [ ] 20 Spring
-- [ ] 19 Fall
+- [x] 20 Spring
+- [x] 19 Fall
 - [ ] 19 Summer
-- [ ] 19 Spring
-- [ ] 18 Fall
+- [x] 19 Spring
+- [x] 18 Fall
 - [ ] 18 Summer
 - [ ] 18 Spring
