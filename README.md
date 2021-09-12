@@ -125,4 +125,4 @@ f(g(x)) # here, the parent of g's frame is Global
 - [x] 19 Spring
 - [x] 18 Fall
 - [ ] 18 Summer
-- [ ] 18 Spring
+- [x] 18 Spring
