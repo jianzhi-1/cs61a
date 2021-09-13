@@ -114,15 +114,15 @@ f(g(x)) # here, the parent of g's frame is Global
 
 ### Exam Area
 
-#### Midterm 1 Prep
+#### Midterm 1 Prep 😤
+See my [Midterm 1 Sheet](http://google.com)
 - [x] 21 Summer
 - [x] 21 Spring
 - [x] 20 Fall
-- [ ] 20 Summer
 - [x] 20 Spring
 - [x] 19 Fall
-- [ ] 19 Summer
 - [x] 19 Spring
 - [x] 18 Fall
-- [ ] 18 Summer
 - [x] 18 Spring
+- [x] 17 Fall
+- [x] 16 Fall 
