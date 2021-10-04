@@ -112,6 +112,24 @@ f(g(x)) # here, the parent of g's frame is Global
   - Every frame except Global must return a value
   - After the return value, no other variable binding can happen in that frame
 
+### Iterators
+```python
+ls = [1, 2, 3]
+it = iter(ls) # iter(iterable)
+next(it) # next(iterator)
+```
+next(it) throws StopIteration exception
+iter(it) == it
+Iterators are mutable
+list(it)
+tuple(it)
+sorted(it)
+Functions that return iterable
+1. ```reversed(sequence)```
+2. ```zip(\*iterables)```
+3. ```map(func, iterable)```
+4. ```filter(func, iterable)```
+
 ### Exam Area
 
 #### Midterm 1 Prep 😤
