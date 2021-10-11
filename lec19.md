@@ -29,4 +29,11 @@ class A(B, C):
   # logic
 ```
 
+Every Python class inherits from ```object``` class.
+```python
+dir(object)
+```
+In particular ```__init__``` is a method of ```object```.
+
+
    
