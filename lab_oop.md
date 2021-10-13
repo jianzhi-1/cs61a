@@ -35,3 +35,4 @@ x.f() # this is fine
 
 Not possible to edit a class variable through an instance. Assigning self.color always assigns the instance variable.
 
+yield from
