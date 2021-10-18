@@ -145,5 +145,18 @@ See my [Midterm 1 Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm1Sh
 - [x] 17 Fall
 - [x] 16 Fall 
 
+#### Midterm 2 Prep 😤
+See my [Midterm 2 Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm1Sheet.pdf)
+- [ ] 21 Summer
+- [ ] 21 Spring
+- [ ] 20 Fall
+- [ ] 20 Spring
+- [ ] 19 Fall
+- [ ] 19 Spring
+- [ ] 18 Fall
+- [ ] 18 Spring
+- [ ] 17 Fall
+- [ ] 16 Fall 
+
 ### Extras
 ![Dice Design Contest](https://raw.githubusercontent.com/jianzhi-1/cs61a/main/dice_design.png)
