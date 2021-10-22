@@ -151,7 +151,7 @@ See my [Midterm 2 Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm1Sh
 - [x] 21 Spring
 - [x] 20 Fall
 - [x] 19 Fall
-- [ ] 19 Spring
+- [x] 19 Spring
 - [ ] 18 Fall
 - [ ] 18 Spring
 - [ ] 17 Fall
