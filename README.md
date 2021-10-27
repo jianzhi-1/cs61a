@@ -152,10 +152,6 @@ See my [Midterm 2 Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm1Sh
 - [x] 20 Fall
 - [x] 19 Fall
 - [x] 19 Spring
-- [ ] 18 Fall
-- [ ] 18 Spring
-- [ ] 17 Fall
-- [ ] 16 Fall 
 
 ### Extras
 ![Dice Design Contest](https://raw.githubusercontent.com/jianzhi-1/cs61a/main/dice_design.png)
