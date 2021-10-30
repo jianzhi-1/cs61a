@@ -72,7 +72,7 @@ def two_var(a, b):
 ```
 ### Tenary Constraints
 Credit: Code from CS61A Lecture Slides
-```
+```python
 def ternary_constraint(a, b, c, ab, ca, cb):
     """The constraint that ab(a,b)=c and ca(c,a)=b and cb(c,b)=a."""
     def new_value():
