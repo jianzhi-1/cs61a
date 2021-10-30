@@ -146,7 +146,7 @@ See my [Midterm 1 Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm1Sh
 - [x] 16 Fall 
 
 #### Midterm 2 Prep 😤
-See my [Midterm 2 Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm1Sheet.pdf)
+See my [Midterm 2 Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm2Sheet.pdf)
 - [x] 21 Summer
 - [x] 21 Spring
 - [x] 20 Fall
