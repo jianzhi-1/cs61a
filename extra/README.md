@@ -1,5 +1,5 @@
 # CS61A Extras
-Welcome. You have found the gems of CS61A.
+Welcome and congratulations! You have stumbled upon the 💎 gems 💎 of CS61A.
 
 ### Multiprocessing
 
