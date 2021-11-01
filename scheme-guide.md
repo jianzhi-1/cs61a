@@ -68,6 +68,9 @@ scm> (even? 10)
 
 scm> (print 1)
 1
+
+scm> (null? nil)
+#t
 ```
 
 ##### Special
