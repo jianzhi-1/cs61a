@@ -53,8 +53,10 @@ scm> (not #f)
 #t
 ```
 
-### Procedures
-Evaluates all operands.
+### Call Exceptions / Procedures
+```( <operator> <arg1> <arg2> ... <argn>)```
+Lisp evaluates all operands, unless the operator is a special form.
+
 ##### Common
 ```lisp
 scm> (modulo 42 2)
@@ -73,14 +75,15 @@ scm> (null? nil)
 #t
 ```
 
-##### Special
-Square brackets means optional.
-- if
+##### Special Forms
+Consists of ```if```, ```and```, ```or```, ```lambda```, ```define``` and more...
+
+1. ```if```
 Only evaluates one of operands
 ```lisp
 (if <predicate> <if-true> [if-false])
 ```
-- cond
+2. ```cond```
 ```lisp
 (cond
     (<p1> <e1>)
@@ -94,16 +97,31 @@ Example
 (cond
     ((< a b) 3)
     ((= a b) 5)
-    ((> a b) 7)
-)
+    ((> a b) 7))
+```
+
+```lisp
+(cond
+    ((< a b) 1)
+    ((= a b) 2)
+    (else 7))
 ```
 
 
-- define
+3. ```define```
 Operands of ```define``` are not evaluated at all.
 ```lisp
 (define <name> <expression>)
 (define (<name> <param1> <param2> ...) <body> )
+```
+
+Example:
+```lisp
+scm> (define a 5)
+a
+
+scm> (define (add1 x) (+ x 1))
+add1
 ```
 
 Lisp on Procedures will evaluate all of its operands first!
@@ -115,7 +133,7 @@ x
 
 
 
-- lambda
+4. lambda
 All Scheme procedures are lambda procedures.
 Returns the last expression in the ```<body>```.
 ```lisp
@@ -139,8 +157,7 @@ Given *f, g*, return *g ∘ f*.
 ```
 
 
-### Objects
-##### List
+### List
 - Note: the second argument of cons **MUST** be either a pair or nil
 ```lisp
 scm> nil
@@ -184,6 +201,8 @@ returns a list consisting of only elements that return ```#t``` on pred (one arg
 (filter <pred> <lst>)
 ```
 
+### Tricks
+- ```()``` is interchangeable with ```[]```
 
 ### Unresolved Questions
 Question what does print return? is there a none in scheme? is none falsy i dont think so
