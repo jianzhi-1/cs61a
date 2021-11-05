@@ -158,7 +158,7 @@ Given *f, g*, return *g ∘ f*.
 
 
 ### List
-- Note: the second argument of cons **MUST** be either a pair or nil
+
 ```lisp
 scm> nil
 ()
@@ -171,10 +171,23 @@ scm> (cons 1 (cons 2 (cons 3 (cons 4 (cons 5 nil)))))
 (1 2 3 4 5)
 ```
 
+- Note: the second argument of cons **MUST** be either a pair or nil
+- Otherwise will result in *improper list* i.e. the second argument is a primitive
+- Many methods (like ```length```) will not work
+```lisp
+scm> (cons 1 2)
+(1 . 2)
+```
+
+##### Methods on List
+1. ```car```
+
 ```lisp
 scm> (car a)
 1
-
+```
+2. ```cdr```
+```
 scm> (cdr a)
 (2 3 4 5)
 
@@ -182,9 +195,7 @@ scm> (cdr '(1 (2 3)))
 ((2 3))
 ```
 
-##### Methods on List
-- append
-- length
+3. ```length```
 ```lisp
 scm> (null? nil)
 #t
@@ -194,7 +205,9 @@ scm> (length '(1 2 3 4 5))
 5
 ```
 
-### Additional
+4. ```append```
+
+### Extras
 - filter
 returns a list consisting of only elements that return ```#t``` on pred (one argument function).
 ```lisp
