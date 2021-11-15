@@ -1,4 +1,4 @@
-### Lecture Notes for Lecture 3 (Control)
+# Control
 
 - Any function that doesn't return a value returns a None value.
 - ```None + None``` will give error.
