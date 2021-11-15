@@ -44,7 +44,7 @@ Extended version of BNF.
 ```item?```: Zero or one item.
 
 ### Grouping
-```
+```lark
 NAME: /\w+/
 NUMBER: /\d+/
 list: ( name | number )+
@@ -57,7 +57,7 @@ comma_separated_list: [ NAME ("," NAME)* ]
 ```
 
 ### Calculator
-```
+```lark
 ?start: calc_expr
 ?calc_expr: NUMBER | calc_op
 calc_op: "(" OPERATOR calc_expr* ")"
