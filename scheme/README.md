@@ -1,4 +1,4 @@
-# Scheme Guide
+# Scheme
 Here we go again!
 
 ### Getting Started
