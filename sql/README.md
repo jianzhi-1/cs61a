@@ -71,5 +71,24 @@ INSERT INTO table VALUES ("JZ", 22);
 ### DELETE
 
 ### JOIN
+##### All Combinations
+```sql
+SELECT * FROM table1, table2;
+```
+
+```sql
+SELECT table1.col1, table1.col2, table2.col2 FROM table1, table2 WHERE table1.col1=table2.col2;
+```
+
+##### Aliasing
+```sql
+SELECT a.col1 AS first, b.col1 AS second FROM table AS a, table AS b WHERE a.col1 = b.col2 AND a.col1 < b.col2;
+```
+Note: the extra condition eliminates double counting.
+
+### Misc
+```sql
+SELECT COUNT(*) FROM table;
+```
 
 
