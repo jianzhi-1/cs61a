@@ -29,12 +29,47 @@ SELECT a FROM table WHERE b > 2022 and c = "jz";
 
 ### CREATE
 
+##### Common
+```sql
+CREATE TABLE table (col1 TEXT, col2 INTEGER);
+```
+
+(edit below)
+```sql
+CREATE TABLE table (
+  col1 INTEGER PRIMARY KEY, ...
+  col1 TEXT, 
+  col2 INTEGER
+);
+```
+
+##### From ```SELECT```
+```sql
+CREATE TABLE table AS SELECT a, b FROM maintable;
+```
+
+##### From UNION
+```sql
+CREATE TABLE table AS SELECT "jz" AS a, 22 AS b;
+```
+
+```sql
+CREATE TABLE table AS 
+  SELECT "jz" AS a, 22 AS b UNION
+  SELECT "jz2" AS a, 23 AS b UNION
+  SELECT "jz3" AS a, 24 AS b;
+```
 
 ### INSERT
-
+```sql
+INSERT INTO table VALUES ("JZ", 22);
+```
 
 ### UPDATE
 
 
 ### DELETE
+
+### JOIN
+
 
