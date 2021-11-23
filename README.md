@@ -155,6 +155,7 @@ See my [Midterm 2 Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm2Sh
 
 #### Finals Prep 😤
 See my [Finals Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm2Sheet.pdf)
+- [x] 19 Fall
 - [ ] YY Spring/Summer/Fall
 
 ### Extras (Dice Design Contest during Project Hog)
