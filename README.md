@@ -160,6 +160,7 @@ See my [Finals Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm2Sheet
 - [x] 19 Fall
 - [x] 19 Spring
 - [x] 18 Fall
+- [x] 18 Spring
 - [ ] YY Spring/Summer/Fall
 
 ### Extras (Dice Design Contest during Project Hog)
