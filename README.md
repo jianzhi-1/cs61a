@@ -158,6 +158,7 @@ See my [Finals Sheet](https://github.com/jianzhi-1/cs61a/blob/main/MidTerm2Sheet
 - [x] 20 Fall
 - [x] 20 Spring
 - [x] 19 Fall
+- [x] 19 Spring
 - [x] 18 Fall
 - [ ] YY Spring/Summer/Fall
 
