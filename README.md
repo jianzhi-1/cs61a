@@ -163,7 +163,6 @@ See my [Finals Sheet](https://github.com/jianzhi-1/cs61a/blob/main/CS61AFinalShe
 - [x] 19 Spring
 - [x] 18 Fall
 - [x] 18 Spring
-- [ ] YY Spring/Summer/Fall
 
 ### Extras (Dice Design Contest during Project Hog)
 ![Dice Design Contest](https://raw.githubusercontent.com/jianzhi-1/cs61a/main/dice_design.png)
