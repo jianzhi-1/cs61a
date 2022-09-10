@@ -1,6 +1,6 @@
 # CS 61A
 ### The Structure and Interpretation of Computer Programs
-UC Berkeley Fall 2021, taught by Prof John DeNero and Prof Pamela Fox
+UC Berkeley Fall 2021, taught by Professor John DeNero and Professor Pamela Fox
 
 This repository is meant to store my lecture/discussion notes. I will **not** be uploading anything related to homework or assignments. Please contact me if you feel any file should not be here. Thanks!
 
